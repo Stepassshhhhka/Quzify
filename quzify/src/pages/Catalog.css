@@ -1,0 +1,132 @@
+.catalog-container {
+  max-width: 1100px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.06);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+.catalog-title { 
+    font-size: 1.7rem; 
+    font-weight: 700; 
+    color: #1e293b; 
+    margin-bottom: 1.8rem; 
+}
+
+.catalog-filters { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1rem; margin-bottom: 2rem; 
+}
+
+.field-input { 
+    padding: 0.65rem 0.9rem; 
+    border: 1px solid #e2e8f0; 
+    border-radius: 12px; 
+    font-size: 0.95rem; 
+    background: #f8fafc; 
+    transition: 0.2s; 
+}
+
+.field-input:focus { 
+    outline: none; 
+    border-color: #818cf8; 
+    background: #fff; 
+    box-shadow: 0 0 0 3px rgba(129,140,248,0.1); 
+}
+
+.catalog-search-input { 
+    flex: 1 1 250px;
+}
+
+.catalog-filter-select { 
+    min-width: 160px; 
+}
+
+.empty-message { 
+    text-align: center; 
+    color: #64748b; 
+    margin-top: 2rem; 
+}
+
+.tests-grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
+    gap: 1.5rem; 
+}
+
+.test-card { 
+    background: #f8fafc; 
+    border: 1px solid #e2e8f0; 
+    border-radius: 16px; 
+    padding: 1.5rem;
+     display: flex; 
+     flex-direction: column; 
+     transition: 0.2s; 
+    }
+
+.test-card:hover { 
+    border-color: #cbd5e1; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04); 
+}
+
+.test-card-title { 
+    font-size: 1.15rem; 
+    font-weight: 600; 
+    color: #1e293b; 
+    margin-bottom: 0.5rem; 
+}
+
+.test-card-description { 
+    color: #475569; 
+    margin-bottom: 1rem; 
+    flex: 1; 
+}
+
+.difficulty-badge { 
+    display: inline-block; 
+    font-size: 0.8rem; 
+    font-weight: 600; 
+    padding: 0.2rem 0.7rem; 
+    border-radius: 12px; 
+    align-self: flex-start; 
+    margin-bottom: 0.7rem; 
+}
+
+.badge-легкая { 
+    background: #d1fae5; 
+    color: #065f46; 
+}
+
+.badge-средняя { 
+    background: #fef3c7; 
+    color: #92400e; 
+}
+
+.badge-сложная { 
+    background: #fee2e2; 
+    color: #991b1b; 
+}
+
+.test-card-meta { 
+    font-size: 0.85rem; 
+    color: #64748b; 
+    margin-bottom: 1.2rem; 
+}
+
+.test-card-btn {
+  display: block;
+  text-align: center;
+  padding: 0.6rem 1rem;
+  background: rgba(120, 143, 206, 0.8);
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: auto;
+  transition: 0.2s;
+}
+.test-card-btn:hover {
+  background: #8ba5fa;
+}

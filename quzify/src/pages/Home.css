@@ -1,0 +1,16 @@
+
+.home-image {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+.home-text {
+  color: #475569;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+.home-subtext {
+  color: #64748b;
+  font-weight: 500;
+}
